@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="image_view" >
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="text_view">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/default_padding_small</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="list_item" parent="Widget.AppCompat.TextView">
+        <item name="minHeight">64dp</item>
+
+    </style>
+
+</resources>

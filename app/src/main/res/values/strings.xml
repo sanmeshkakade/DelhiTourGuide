@@ -1,0 +1,18 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">Delhi Tour Guide</string>
+    <string name="about_delhi">About Delhi...</string>
+    <string name="explore_button">Let\'s Explore</string>
+    <string name="delhi_intro">\t\t\tDelhi seems like a colorful, cosmic swirl. India\'s capital and second-largest city is in constant motion — whether it\'s with people and cultures or religions and history.\n\t\t\tAnd that makes it an ideal destination for the traveler who enjoys complexity and multicultural trips. Whether you\'re enjoying the historic and sometimes chaotic vibe of Old Delhi or the emerging dynamic modernism of the government district in New Delhi, you\'ll never be bored. (Though you may be surprised at the number of green spaces around the city where you can find some tranquility).</string>
+    <string name="location_subitem">Location: </string>
+    <string name="metro_subitem">Nearest Metro Station: </string>
+    <string name="entry_subitem">Entry Time: </string>
+    <string name="entry_fee_subitem">Entry Fee: </string>
+    <string name="explore_places">Explore Places</string>
+
+
+
+
+
+</resources>

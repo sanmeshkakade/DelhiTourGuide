@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment_2"
+    android:background="@color/fragment_background"
+    android:padding="@dimen/default_padding_large"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/purple_200">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_delhi"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:padding="@dimen/default_padding_large"
+            android:textStyle="bold"
+            android:textColor="@color/orange_delight"
+            android:background="@color/teal_200"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/image_view"
+            android:src="@drawable/delhi_collection" />
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/text2"
+            android:text="@string/delhi_intro"
+            style="@style/text_view"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/explore_button"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_gravity="center"
+            android:padding="@dimen/default_padding_large"
+            android:text="@string/explore_button"/>
+    </LinearLayout>
+
+</LinearLayout>
